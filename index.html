@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0"/>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link href="/icons/css/all.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  
+  <title>Weather Forecast app</title>
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="table-block">
+
+        <div class="header">
+            <h3>Weather Forecast</h3>
+        </div>
+
+        <div class="new-city">
+            <div class="add-city">
+                <i class="fas fa-plus"></i>
+            </div>
+            <input id="create-city" type="text" onfocus="this.placeholder = ''"; placeholder="Check you city wheather"; onblur="this.placeholder = 'Check you city wheather'">
+        </div>
+
+        <div class="list">
+            <ul id="city-list">
+                <!-- <li class="standard">
+                    <div class="remove-todo">
+                        <i class="fas fa-minus"></i>
+                    </div>
+                    <div class="report">
+                        <p id="city">Istanbul</p>
+                        <span id="keyapi"></span>
+                        <i id="icon"class="fas fa-cloud"></i>
+                    </div>
+                    <div class="details">
+                        <p>More Details</p>
+                    </div>
+                    <div class="info">
+                        <ul class="headings">
+                            <li>Status</li>
+                            <li>Wind</li>
+                            <li>Hummidity</li>
+                            <li>Pressure</li>
+                        </ul>
+                        <ul class="datas">
+                            <li>10</li>
+                            <li>5</li>
+                            <li>80</li>
+                            <li>90</li>
+                        </ul>
+                    </div>
+                    <div class="close" id="close">
+                        <i class="fas fa-chevron-up fa-2x"></i>
+                    </div>
+                </li> -->
+            </ul>
+  
+        </div>
+
+    </div>
+
+</div>
+
+<script src="storage.js"></script>
+<script src="ui.js"></script>
+<script src="forecast.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
